@@ -31,7 +31,7 @@
     src: url('../fonts/outfit-v11-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
 
-:root {
+  :root {
     /* colors */
     --rose-800: rgb(122, 40, 78);
     --rose-50: rgb(255, 247, 251);
@@ -53,4 +53,14 @@
     --spacing-100: 8px;
 }
 
-/* thing may change when implementing Sass */ 
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+p {
+    margin-top: 0;
+}
+
+a, a:visited, a:active {
+    text-decoration: none;
+}
